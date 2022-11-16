@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pokeapi</string>
+    <string name="search_title">Search</string>
+    <string name="text_name">Name: %s</string>
+    <string name="text_exp">Base exp: %s</string>
+    <string name="text_height">Height: %s</string>
+    <string name="text_weight">Weight: %s</string>
+
+
+</resources>
