@@ -14,6 +14,32 @@ internal object Versions {
     const val OK_HTTP_VERSION = "4.9.3"
     const val COROUTINES_VERSION = "1.5.2"
     const val ROOM_VERSION = "2.4.3"
+    const val SQLCIPHER_VERSION = "4.4.2"
+    const val SQLITE_KTX_VERSION = "2.1.0"
+    const val SECURITY_CRYPTO_VERSION = "1.1.0-alpha03"
+    const val STETHO_VERSION = "1.5.1"
+    const val CAMERAX_VERSION = "1.1.0-rc01"
+    const val CROPPER_VERSION = "2.8.0"
+    const val LOTTIE_VERSION = "3.6.0"
+    const val BARCODE_SCANNER_VERSION = "4.2.0"
+    const val BARCODE_SCANNER_CORE_VERSION = "3.3.0"
+    const val CIRCLE_PROGRESS_BAR_VERSION = "1.3.6"
+    const val SHIMMER_VERSION = "0.5.0"
+    const val GSON_VERSION = "2.8.6"
+
+    const val SURVEY_VERSION = "1.0.7"
+    const val UTILS_VERSION = "1.2.0"
+    const val TRACKING_VERSION = "1.0.0"
+    const val CAMERA_VERSION = "1.0.0"
+    const val ARTIFACTS_VERSION = "1.1.7"
+}
+
+object RaerLibs {
+    const val SURVEY = "com.raer.artifacts:surveyapi:${Versions.SURVEY_VERSION}:debug@aar"
+    const val UTILS = "com.raer.artifacts:utils:${Versions.UTILS_VERSION}:debug@aar"
+    const val TRACKING = "com.raer.artifacts:Tracking:${Versions.TRACKING_VERSION}:debug@aar"
+    const val CAMERA = "com.raer.artifacts:CameraApi:${Versions.CAMERA_VERSION}:debug@aar"
+    const val ARTIFACTS = "com.raer.artifacts:artifacts:${Versions.ARTIFACTS_VERSION}:debug@aar"
 }
 
 object SupportLibs {
@@ -36,6 +62,21 @@ object Dependencies {
     const val ROOM = "androidx.room:room-runtime:${Versions.ROOM_VERSION}"
     const val ROOM_COMPILER = "androidx.room:room-compiler:${Versions.ROOM_VERSION}"
     const val ROOM_KTX = "androidx.room:room-ktx:${Versions.ROOM_VERSION}"
+    const val SQLCIPHER = "net.zetetic:android-database-sqlcipher:${Versions.SQLCIPHER_VERSION}"
+    const val SQLITE_KTX = "androidx.sqlite:sqlite-ktx:${Versions.SQLITE_KTX_VERSION}"
+    const val SECURITY_CRYPTO = "androidx.security:security-crypto:${Versions.SECURITY_CRYPTO_VERSION}"
+    const val STETHO = "com.facebook.stetho:stetho:${Versions.STETHO_VERSION}"
+    const val CAMERAX = "androidx.camera:camera-camera2:${Versions.CAMERAX_VERSION}"
+    const val CAMERAX_LIFECYCLE = "androidx.camera:camera-lifecycle:${Versions.CAMERAX_VERSION}"
+    const val CAMERAX_VIEW = "androidx.camera:camera-view:${Versions.CAMERAX_VERSION}"
+    const val CROPPER = "com.theartofdev.edmodo:android-image-cropper:${Versions.CROPPER_VERSION}"
+    const val LOTTIE = "com.airbnb.android:lottie:${Versions.LOTTIE_VERSION}"
+    const val BARCODE_SCANNER = "com.journeyapps:zxing-android-embedded:${Versions.BARCODE_SCANNER_VERSION}"
+    const val BARCODE_SCANNER_CORE = "com.google.zxing:core:${Versions.BARCODE_SCANNER_CORE_VERSION}"
+    const val CIRCLE_PROGRESS_BAR = "com.dinuscxj:circleprogressbar:${Versions.CIRCLE_PROGRESS_BAR_VERSION}"
+    const val SHIMMER = "com.facebook.shimmer:shimmer:${Versions.SHIMMER_VERSION}"
+    const val GSON = "com.google.code.gson:gson:${Versions.GSON_VERSION}"
+
 }
 
 object Testing {

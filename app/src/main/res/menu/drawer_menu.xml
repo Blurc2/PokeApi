@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <group-->
+<!--        android:id="@+id/homeGroup">-->
+<!--        <item android:id="@+id/homeFragment"-->
+<!--            android:icon="@drawable/ic_menu_item_home"-->
+<!--            android:title="@string/menu_item_home_title" />-->
+<!--    </group>
+
+    <group
+        android:id="@+id/scheduleGroup">
+        <item android:id="@+id/scheduleFragment"
+            android:icon="@drawable/ic_menu_item_schedule"
+            android:title="@string/menu_item_schedule_title" />
+    </group>
+
+    <group
+        android:id="@+id/visitsGroup">
+        <item android:id="@+id/visitsFragment"
+            android:icon="@drawable/ic_menu_item_visits"
+            android:title="@string/menu_item_visits_title" />
+    </group>-->
+
+    <group
+        android:id="@+id/communicationGroup">
+        <item android:id="@+id/communicationFragment"
+            android:icon="@drawable/ic_menu_item_communication"
+            android:title="@string/menu_item_communication_title" />
+    </group>
+
+    <group
+        android:id="@+id/stopsGroup">
+        <item android:id="@+id/stopsFragment"
+            android:icon="@drawable/ic_menu_item_incidents"
+            android:title="@string/menu_item_stops_and_incidents" />
+    </group>
+
+    <group
+        android:id="@+id/supportGroup">
+        <item android:id="@+id/supportFragment"
+            android:icon="@drawable/ic_menu_item_faq"
+            android:title="@string/menu_item_support_title" />
+    </group>
+
+</menu>

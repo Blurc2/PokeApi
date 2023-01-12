@@ -9,13 +9,32 @@ import AppCoordinates.APP_VERSION_NAME
 import AppCoordinates.COMPILE_SDK_VERSION
 import AppCoordinates.MIN_SDK_VERSION
 import AppCoordinates.TARGET_SDK_VERSION
+import Dependencies.BARCODE_SCANNER
+import Dependencies.BARCODE_SCANNER_CORE
+import Dependencies.CAMERAX
+import Dependencies.CAMERAX_LIFECYCLE
+import Dependencies.CAMERAX_VIEW
+import Dependencies.CIRCLE_PROGRESS_BAR
+import Dependencies.CROPPER
+import Dependencies.GSON
 import Dependencies.LOGGING_INTERCEPTR
+import Dependencies.LOTTIE
 import Dependencies.MOSHI_CONVERTER
 import Dependencies.OK_HTTP
 import Dependencies.RETROFIT
 import Dependencies.ROOM
 import Dependencies.ROOM_COMPILER
 import Dependencies.ROOM_KTX
+import Dependencies.SECURITY_CRYPTO
+import Dependencies.SHIMMER
+import Dependencies.SQLCIPHER
+import Dependencies.SQLITE_KTX
+import Dependencies.STETHO
+import RaerLibs.ARTIFACTS
+import RaerLibs.CAMERA
+import RaerLibs.SURVEY
+import RaerLibs.TRACKING
+import RaerLibs.UTILS
 import SupportLibs.ANDROIDX_APPCOMPAT
 import SupportLibs.ANDROIDX_CONSTRAINT_LAYOUT
 import SupportLibs.ANDROIDX_CORE_KTX
@@ -68,6 +87,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -85,10 +105,31 @@ dependencies {
     implementation(OK_HTTP)
     implementation(LOGGING_INTERCEPTR)
     implementation(MOSHI_CONVERTER)
-//    implementation(ROOM)
-//    implementation(ROOM_KTX)
+    implementation(ROOM)
+    implementation(ROOM_KTX)
+    implementation(SECURITY_CRYPTO)
+    implementation(SQLITE_KTX)
+    implementation(SQLCIPHER)
+    implementation(STETHO)
+    implementation(LOTTIE)
+    implementation(CAMERAX)
+    implementation(CAMERAX_LIFECYCLE)
+    implementation(CAMERAX_VIEW)
+    implementation(BARCODE_SCANNER)
+    implementation(BARCODE_SCANNER_CORE)
+    implementation(CIRCLE_PROGRESS_BAR)
+    implementation(SHIMMER)
+    implementation(GSON)
 
-//    kapt(ROOM_COMPILER)
+    implementation(UTILS)
+    implementation(ARTIFACTS)
+    implementation(SURVEY)
+    implementation(TRACKING)
+    implementation(CAMERA)
+
+    api(CROPPER)
+
+    kapt(ROOM_COMPILER)
 
     testImplementation(JUNIT)
     testImplementation(MOCKITO)

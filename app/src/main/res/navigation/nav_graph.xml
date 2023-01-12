@@ -2,22 +2,17 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/pokeapiFragment">
-
+    app:startDestination="@id/loginFragment">
     <fragment
-        android:id="@+id/pokeapiFragment"
-        android:name="com.example.pokeapi.presentation.pokeapi.PokeapiFragment"
-        android:label="PokeapiFragment" >
+        android:id="@+id/loginFragment"
+        android:name="com.gshp.desktop.presentation.login.LoginFragment"
+        android:label="LoginFragment" >
         <action
-            android:id="@+id/action_pokeapiFragment_to_pokemonInfoFragment"
-            app:destination="@id/pokemonInfoFragment" />
+            android:id="@+id/action_loginFragment_to_workingDayFragment"
+            app:destination="@id/workingDayFragment" />
     </fragment>
     <fragment
-        android:id="@+id/pokemonInfoFragment"
-        android:name="com.example.pokeapi.presentation.pokemonInfo.PokemonInfoFragment"
-        android:label="PokemonInfoFragment" >
-        <argument
-            android:name="name"
-            app:argType="string" />
-    </fragment>
+        android:id="@+id/workingDayFragment"
+        android:name="com.gshp.desktop.presentation.workingday.WorkingDayFragment"
+        android:label="WorkingDayFragment" />
 </navigation>

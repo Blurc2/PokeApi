@@ -2,5 +2,16 @@
 <resources>
     <dimen name="elevation_action_bar">8dp</dimen>
     <dimen name="padding_all_8">8dp</dimen>
+    <dimen name="padding_all_16">16dp</dimen>
     <dimen name="match_constraint">0dp</dimen>
+    <dimen name="margin_all_100">100dp</dimen>
+    <dimen name="margin_all_120">120dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="text_25">25sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="margin_all_42">42dp</dimen>
+    <dimen name="text_60">60sp</dimen>
+    <dimen name="margin_all_24">24dp</dimen>
+    <dimen name="margin_all_80">80dp</dimen>
 </resources>

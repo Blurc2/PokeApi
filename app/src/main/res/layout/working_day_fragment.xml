@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_green">
+
+    <TextView
+        android:id="@+id/tv_workday_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_all_120"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_25"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_workday_message"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/text_begin_workday_title" />
+
+    <TextView
+        android:id="@+id/tv_workday_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintTop_toBottomOf="@id/tv_workday_title"
+        tools:text="@string/text_begin_workday" />
+
+    <ImageView
+        android:id="@+id/iv_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_all_42"
+        android:src="@drawable/ic_clock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_workday_message" />
+
+    <TextView
+        android:id="@+id/tv_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_60"
+        app:layout_constraintTop_toBottomOf="@id/iv_clock"
+        tools:text="09:01:40 HRS" />
+
+    <Button
+        android:id="@+id/btn_action_workday"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_all_80"
+        android:layout_marginHorizontal="@dimen/margin_all_24"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_hour"
+        app:strokeColor="@color/white"
+        tools:text="@string/text_begin_workday_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

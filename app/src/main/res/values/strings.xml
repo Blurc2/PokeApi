@@ -1,10 +1,24 @@
 <resources>
-    <string name="app_name">Pokeapi</string>
+    <string name="app_name">Desktop</string>
     <string name="search_title">Search</string>
-    <string name="text_name">Name: %s</string>
-    <string name="text_exp">Base exp: %s</string>
-    <string name="text_height">Height: %s</string>
-    <string name="text_weight">Weight: %s</string>
 
 
+    <!-- Login -->
+    <string name="text_username_hint">Usuario</string>
+    <string name="text_password_hint">Contraseña</string>
+    <string name="text_login">Entrar</string>
+    <string name="text_support">Soporte</string>
+    <string name="text_terms_and_conditions">Terminos y condiciones</string>
+    <string name="text_version">Version: %s</string>
+
+    <!-- Workday -->
+    <string name="text_begin_workday_title">Iniciar Jornada</string>
+    <string name="text_begin_workday">Por favor iniciar sua jornada de trabalho</string>
+    <string name="text_end_workday_title">Finalizar Jornada</string>
+    <string name="text_end_workday">Por favor finalizar sua jornada de trabalho</string>
+
+
+    <string name="S3_BASIC_USERNAME">iCjEVxnWEqX2uEF84eTjsv3JBToJn5iE</string>
+    <string name="S3_BASIC_PASSWORD">Je2z9q2WWwycNKtYmyobwBYpc7bbADkDEQ2CCWNnQUJcwxUUE4N2YNTxtdzrxKhe</string>
+    <string name="S3RestPath">Je2z9q2WWwycNKtYmyobwBYpc7bbADkDEQ2CCWNnQUJcwxUUE4N2YNTxtdzrxKhe</string>
 </resources>
